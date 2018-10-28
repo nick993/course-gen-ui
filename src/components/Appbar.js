@@ -19,7 +19,10 @@ import MoreIcon from "@material-ui/icons/MoreVert";
 
 const styles = theme => ({
   root: {
-    width: "100%",
+    width: "100%"
+  },
+  appbar: {
+    borderRadius: 15
   },
   grow: {
     flexGrow: 1,
@@ -88,7 +91,7 @@ const styles = theme => ({
 });
 
 class PrimarySearchAppBar extends React.Component {
-    state = {
+    state = { 
         anchorEl: null,
         mobileMoreAnchorEl: null,
     };
@@ -164,7 +167,7 @@ class PrimarySearchAppBar extends React.Component {
 
     return (
       <div className={classes.root}>
-        <AppBar position="static">
+        <AppBar position="static" className={classes.appbar}> 
           <Toolbar>
             <IconButton className={classes.menuButton} color="inherit" aria-label="Open drawer">
               <MenuIcon />

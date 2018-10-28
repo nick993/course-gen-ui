@@ -7,7 +7,8 @@ import { Button, Card, CardContent, Typography, CardActions } from "@material-ui
 const styles = {
 	card: {
 		minWidth: 275,
-		margin: 10
+		margin: 10,
+		borderRadius: 15
 	},
 	bullet: {
 		display: "inline-block",
@@ -48,7 +49,7 @@ class Link extends React.Component {
 				</Card>
 			</div>
 
-			
+
 		);
 	}
 }
