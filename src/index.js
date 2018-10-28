@@ -9,7 +9,7 @@ import {ApolloClient} from "apollo-client";
 import {InMemoryCache} from "apollo-cache-inmemory";
 
 const httpLink = createHttpLink({
-	uri: "http://cmsgraphql.herokuapp.com:80/graphql"
+	uri: "http://cmsgraphql.herokuapp.com/graphql"
 });
 
 const client = new ApolloClient({
