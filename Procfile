@@ -1,1 +1,1 @@
-webui: yarn start
+webui: yarn build
