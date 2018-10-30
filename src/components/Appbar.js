@@ -21,9 +21,6 @@ const styles = theme => ({
   root: {
     width: "100%"
   },
-  appbar: {
-    borderRadius: 15
-  },
   grow: {
     flexGrow: 1,
   },
@@ -167,7 +164,7 @@ class PrimarySearchAppBar extends React.Component {
 
     return (
       <div className={classes.root}>
-        <AppBar position="static" className={classes.appbar}> 
+        <AppBar position="static"> 
           <Toolbar>
             <IconButton className={classes.menuButton} color="inherit" aria-label="Open drawer">
               <MenuIcon />

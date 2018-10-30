@@ -9,8 +9,7 @@ const styles = {
 		width: "100%",
 		display: "flex",
 		flexWrap: "wrap",
-		margin: "10px",
-		padding: "10px"
+		marginTop: "10px"
 	}
 };
 
