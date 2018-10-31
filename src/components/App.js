@@ -19,7 +19,7 @@ class App extends React.Component {
 				danger: 'orange',
 			},
 		});
-
+		console.log("Server : " + (process.env.NODE_ENV === "production" ? process.env.REACT_APP_PROD_API : process.env.REACT_APP_LOCAL_API));
 		return (
 			<div>
 				<MuiThemeProvider theme={theme}>
