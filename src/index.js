@@ -8,7 +8,7 @@ import {createHttpLink} from "apollo-link-http";
 import {ApolloClient} from "apollo-client";
 import {InMemoryCache} from "apollo-cache-inmemory";
 
-console.log('SErver Log :; ' + process.env.NODE_ENV + process.env.REACT_APP_LOCAL_API)
+console.log('Server Log :; ' + process.env.NODE_ENV + process.env.REACT_APP_LOCAL_API)
 
 const httpLink = createHttpLink({
 	uri: (process.env.NODE_ENV === "production" ? process.env.REACT_APP_LOCAL_API : process.env.REACT_APP_LOCAL_API)
